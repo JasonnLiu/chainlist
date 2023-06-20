@@ -269,6 +269,11 @@ export const extraRpcs = {
         tracking: "yes",
         trackingDetails: privacyStatement.tenderly,
       },
+      {
+        url: "https://api.zan.top/node/v1/eth/mainnet/xx",
+        tracking: "none",
+        trackingDetails: privacyStatement.zan,
+      }
     ],
   },
   2: {
